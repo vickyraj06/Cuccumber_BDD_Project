@@ -1,0 +1,493 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-18T05:03:29.879Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1711390400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the Login Functionality with valid credentials",
+        "description": "",
+        "id": "feature-to-check-login-functionality;validate-the-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 359758400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1688247600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "StepDefinitions.StepLogin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 387238800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entering valid \"admin@yourstore.com\" and valid \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinitions.StepLogin.user_entering_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6820896800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicking on Login button",
+            "match": {
+              "location": "StepDefinitions.StepLogin.clicking_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101761700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigated to Homepage and check the Title",
+            "match": {
+              "location": "StepDefinitions.StepLogin.navigated_to_homepage_and_check_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T05:03:41.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 969564200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "",
+        "description": "\tValidate the Login Functionality with valid and Invalid credentials ",
+        "id": "feature-to-check-login-functionality;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 187585800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 781489400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "StepDefinitions.StepLogin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 282164400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user entering valid \"admin@yourstore.com\" and valid \"amin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"amin\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinitions.StepLogin.user_entering_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760121900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicking on Login button",
+            "match": {
+              "location": "StepDefinitions.StepLogin.clicking_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12965100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigated to Homepage and check the Title",
+            "match": {
+              "location": "StepDefinitions.StepLogin.navigated_to_homepage_and_check_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T05:03:44.120Z",
+        "before": [
+          {
+            "result": {
+              "duration": 985048900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "",
+        "description": "\tValidate the Login Functionality with valid and Invalid credentials ",
+        "id": "feature-to-check-login-functionality;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 172297300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2065829800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "StepDefinitions.StepLogin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267884400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user entering valid \"admin@yourstre.com\" and valid \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstre.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.StepLogin.user_entering_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 565331300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicking on Login button",
+            "match": {
+              "location": "StepDefinitions.StepLogin.clicking_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11159200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigated to Homepage and check the Title",
+            "match": {
+              "location": "StepDefinitions.StepLogin.navigated_to_homepage_and_check_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T05:03:48.212Z",
+        "before": [
+          {
+            "result": {
+              "duration": 884711900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "",
+        "description": "\tValidate the Login Functionality with valid and Invalid credentials ",
+        "id": "feature-to-check-login-functionality;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 219286200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 681243700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "StepDefinitions.StepLogin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259847700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user entering valid \"admin@yourstore.com\" and valid \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinitions.StepLogin.user_entering_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3560237800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicking on Login button",
+            "match": {
+              "location": "StepDefinitions.StepLogin.clicking_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9101900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigated to Homepage and check the Title",
+            "match": {
+              "location": "StepDefinitions.StepLogin.navigated_to_homepage_and_check_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-18T05:03:53.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1150922400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "",
+        "description": "\tValidate the Login Functionality with valid and Invalid credentials ",
+        "id": "feature-to-check-login-functionality;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 191487600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepLogin.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 714143600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "StepDefinitions.StepLogin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298278900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user entering valid \"admin@yourstoe.com\" and valid \"admn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstoe.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admn\"",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.StepLogin.user_entering_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 670737800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicking on Login button",
+            "match": {
+              "location": "StepDefinitions.StepLogin.clicking_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12744700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigated to Homepage and check the Title",
+            "match": {
+              "location": "StepDefinitions.StepLogin.navigated_to_homepage_and_check_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to check Login Functionality",
+    "description": "",
+    "id": "feature-to-check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Feature/Login.feature",
+    "tags": []
+  }
+]

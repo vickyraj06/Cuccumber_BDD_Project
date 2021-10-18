@@ -1,0 +1,3 @@
+StepDefinitions\StepLogin.class
+PageObjects\LoginPage.class
+TestRunner\TestRunnerLogin.class

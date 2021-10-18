@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="27.223">
+    <testcase classname="Feature to check Login Functionality" name="Validate the Login Functionality with valid credentials" time="11.187">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When user entering valid "admin@yourstore.com" and valid "admin"............passed
+And Clicking on Login button................................................passed
+Then Navigated to Homepage and check the Title..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to check Login Functionality" name="" time="3.009">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When user entering valid "admin@yourstore.com" and valid "amin".............passed
+And Clicking on Login button................................................passed
+Then Navigated to Homepage and check the Title..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to check Login Functionality" name="_2" time="4.077">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When user entering valid "admin@yourstre.com" and valid "admin".............passed
+And Clicking on Login button................................................passed
+Then Navigated to Homepage and check the Title..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to check Login Functionality" name="_3" time="5.622">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When user entering valid "admin@yourstore.com" and valid "admin"............passed
+And Clicking on Login button................................................passed
+Then Navigated to Homepage and check the Title..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to check Login Functionality" name="_4" time="3.045">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When user entering valid "admin@yourstoe.com" and valid "admn"..............passed
+And Clicking on Login button................................................passed
+Then Navigated to Homepage and check the Title..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
